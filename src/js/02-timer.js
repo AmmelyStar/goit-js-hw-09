@@ -27,7 +27,7 @@ const options = {
       } else {
           elements.btn.disabled = false;
       }
-         let selectedTime = picker.selectedDates[0];
+        //  let selectedTime = picker.selectedDates[0];
   },
 };
 
