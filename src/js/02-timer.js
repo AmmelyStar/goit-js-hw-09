@@ -27,7 +27,7 @@ const options = {
       } else {
           elements.btn.disabled = false;
       }
-        selectedTime = picker.selectedDates[0];
+         let selectedTime = picker.selectedDates[0];
   },
 };
 
@@ -36,7 +36,7 @@ const picker = flatpickr(elements.input, options);
 function addLeadingZero(value) {
      return value.toString().padStart(2, '0');
      }
-const selectedTime = picker.selectedDates[0];
+let  selectedTime = picker.selectedDates[0];
 
 elements.btn.addEventListener('click', () => {    
     const interval = setInterval(() => {
