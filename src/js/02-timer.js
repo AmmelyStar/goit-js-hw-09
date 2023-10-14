@@ -39,7 +39,7 @@ function addLeadingZero(value) {
 const selectedTime = picker.selectedDates[0];
 
 elements.btn.addEventListener('click', () => {    
-    interval = setInterval(() => {
+    const interval = setInterval(() => {
       // const selectedTime = picker.selectedDates[0];
       
         const currentDate = new Date();
